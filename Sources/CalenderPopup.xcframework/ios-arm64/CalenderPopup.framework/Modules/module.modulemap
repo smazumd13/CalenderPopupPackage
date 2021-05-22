@@ -1,0 +1,11 @@
+framework module CalenderPopup {
+  umbrella header "CalenderPopup.h"
+
+  export *
+  module * { export * }
+}
+
+module CalenderPopup.Swift {
+    header "CalenderPopup-Swift.h"
+    requires objc
+}
